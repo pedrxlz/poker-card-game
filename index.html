@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poker espacial</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Robô 2: <span id="dealer-sum"></span></h1>
+    <div class="card-container" id="dealer-cards">
+      <img id="hidden" src="./cards/BACK.png" />
+      <img id="hidden" src="./cards/BACK.png" />
+    </div>
+    <br />
+    <br />
+
+    <div class="card-container" id="table-cards"></div>
+
+    <h1>Robô 1: <span id="your-sum"></span></h1>
+    <div class="card-container" id="your-cards"></div>
+
+    <br />
+    <br />
+    <button id="check-winner">Checar vencedor</button>
+    <div id="winner-info"></div>
+
+    <p id="results"></p>
+  </body>
+</html>
